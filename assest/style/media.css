@@ -1,0 +1,29 @@
+@media (min-width:992px){
+    .container-2, .container-3, .header__3
+    {
+display: none;
+    }
+}
+
+
+@media (max-width:768px){
+    .container, header, .container-3, .email-img.png
+    {
+        display: none;
+    }
+    .container-2, .header__2, .restangle-2, .numbers-2
+    {
+        display: block;
+    }
+}
+
+@media (max-width:576px){
+    .container, .container-2, .email-img.png 
+    {
+        display: none;
+    }
+
+    .container-3, .header__3{
+        display: block;
+    }
+}

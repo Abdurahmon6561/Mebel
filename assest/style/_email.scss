@@ -1,0 +1,75 @@
+$color_1: #000;
+$color_2: var(--Gray-2, #4F4F4F);
+$font-family_1: Roboto;
+
+.hero-title-3 {
+	color: $color_1;
+	font-family: $font-family_1;
+	font-size: 45px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+	margin-top: 120px;
+}
+.email-1 {
+	color: $color_1;
+	font-family: $font-family_1;
+	font-size: 58px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 145.687%;
+}
+.email {
+	width: 104px;
+	height: 40px;
+	background: #FAFF09;
+	margin-top: -65px;
+	margin-left: 69px;
+	color: $color_1;
+	font-family: $font-family_1;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: unset;
+}
+.email-yellow {
+	width: 186px;
+	height: 40px;
+	background: #FAFF09;
+	margin-top: -65px;
+	margin-left: 69px;
+	color: $color_1;
+	font-family: $font-family_1;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: unset;
+}
+.email-p {
+	width: 387px;
+	color: $color_2;
+	font-family: $font-family_1;
+	font-size: 23px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 147.687%;
+	margin-top: 24px;
+	margin-left: 62px;
+}
+.email-img {
+	margin-left: 70px;
+	margin-top: 100px;
+}
+.btn-3 {
+	margin-top: 76px;
+}
+.btn-3__p {
+	color: $color_1;
+	text-align: center;
+	font-family: $font-family_1;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+	margin: 12px;
+}

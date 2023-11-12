@@ -1,0 +1,33 @@
+$color_1: #FFF;
+$font-family_1: Roboto;
+$background-color_1: black;
+
+.sofa {
+	background-image: url("../image/image/big-sofa.png");
+	background-repeat: no-repeat;
+	background-size: 100vw 100vh;
+	height: 100vh;
+	margin-bottom: 45px;
+	background-color: $background-color_1;
+}
+.main__title {
+	color: $color_1;
+	font-family: $font-family_1;
+	font-size: 42px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 146.687%;
+	margin-left: 200px;
+	margin-top: 75px;
+	padding: 77px;
+}
+.main__subtitile {
+	color: $color_1;
+	font-family: $font-family_1;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 146.687%;
+	margin-left: 319px;
+	padding: 5px;
+}

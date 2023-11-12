@@ -1,0 +1,50 @@
+$color_1: #FAFF09;
+$color_2: var(--Gray-6, #F2F2F2);
+$font-family_1: Roboto;
+
+.footer {
+	background-image: url("../image/image/something-2.png");
+	background-repeat: no-repeat;
+	background-size: 100vw 100vh;
+	height: 100vh;
+	margin-bottom: 45px;
+}
+.footer-h3 {
+	color: $color_1;
+	font-family: $font-family_1;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 146.187%;
+	margin-top: 50px;
+}
+.footer-p {
+	color: $color_2;
+	font-family: $font-family_1;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 146.187%;
+}
+.footer-1 {
+	margin-top: -24px;
+}
+.footer-4 {
+	margin-top: -53px;
+	margin-left: 45px;
+}
+.footer-3 {
+	margin-left: 45px;
+}
+.footer-2 {
+	margin-left: 45px;
+}
+.black-icons {
+	margin-right: 20px;
+}
+.footer__left {
+	margin-top: 330px;
+}
+.footer__right {
+	margin-right: 87px;
+}

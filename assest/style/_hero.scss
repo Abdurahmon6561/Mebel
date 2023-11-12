@@ -1,0 +1,60 @@
+$color_1: #000;
+$color_2: var(--Gray-1, #333);
+$font-family_1: Roboto;
+
+.hero {
+	margin-top: 92px;
+	margin-left: 61px;
+}
+.hero-title-2 {
+	color: $color_1;
+	font-family: $font-family_1;
+	font-size: 45px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+}
+.line {
+	width: 200px;
+	height: 5px;
+	flex-shrink: 0;
+	background: #000;
+	margin-left: -58px;
+	margin-top: 18px;
+	margin-bottom: 50px;
+}
+.hero-p {
+	color: $color_1;
+	font-family: $font-family_1;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	width: 829px;
+	margin-top: 56px;
+}
+.hero-p2 {
+	color: $color_2;
+	font-family: $font-family_1;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 147.187%;
+	width: 824px;
+	margin-top: 48px;
+}
+.hero__right-p {
+	color: $color_1;
+	font-family: $font-family_1;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 147.187%;
+}
+.hero__right {
+	margin-left: 708px;
+	margin-top: 100px;
+}
+.main {
+	margin-top: 119px;
+}

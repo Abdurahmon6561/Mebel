@@ -1,0 +1,45 @@
+$color_1: #0E0E0E;
+$font-family_1: Roboto;
+
+.restangle {
+	width: 1250px;
+	height: 208px;
+	flex-shrink: 0;
+	background: var(--Gray-6, #F2F2F2);
+}
+.number {
+	color: $color_1;
+	text-align: right;
+	font-family: $font-family_1;
+	font-size: 50px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-left: 34px;
+}
+.number-p {
+	color: $color_1;
+	font-family: $font-family_1;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-left: 36px;
+}
+.number-p2 {
+	width: 314px;
+	color: $color_1;
+	font-family: $font-family_1;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+	margin-left: 115px;
+	margin-top: 10px;
+}
+.black {
+	width: 20px;
+	height: 20px;
+	flex-shrink: 0;
+	background: #0E0E0E;
+}

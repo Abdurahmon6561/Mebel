@@ -1,0 +1,60 @@
+$color_1: #0E0E0E;
+$color_2: var(--Gray-2, #4F4F4F);
+$font-family_1: Roboto;
+
+.cards-title {
+	color: $color_1;
+	font-family: $font-family_1;
+	font-size: 43px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	margin-top: 30px;
+	margin-left: 11px;
+}
+.cards-subtitle {
+	color: $color_2;
+	font-family: $font-family_1;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 147.187%;
+	margin-top: 20px;
+	margin-left: 11px;
+}
+
+
+$color_1: #000;
+$color_2: var(--Gray-2, #4F4F4F);
+$font-family_1: Roboto;
+$background-color_1: black;
+
+.cards__title {
+	color: $color_1;
+	font-family: $font-family_1;
+	font-size: 23px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	width: 379px;
+}
+.cards__subtitle {
+	color: $color_2;
+	font-family: $font-family_1;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+}
+.img-bg {
+	width: 576px;
+	height: 657px;
+	flex-shrink: 0;
+	background: rgba(0, 0, 0, 0.80);
+	box-shadow: 0px 4px 100px 0px rgba(0, 0, 0, 0.25);
+	background-image: url(../image/image/desing-7.5.png);
+	background-repeat: no-repeat;
+	background-color: $background-color_1;
+	width: 576px;
+	height: 480px;
+}

@@ -1,0 +1,74 @@
+$color_1: #000;
+$color_2: var(--Gray-2, #4F4F4F);
+$color_3: var(--Gray-1, #333);
+$font-family_1: Roboto;
+
+.E-mail__right {
+	margin-left: 30px;
+	margin-top: 171px;
+}
+.E-mail-p {
+	width: 477px;
+	color: $color_1;
+	font-family: $font-family_1;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 146.687%;
+	margin-top: -188px;
+	margin-left: 70px;
+	margin-bottom: 30px;
+}
+.E-mail-p2 {
+	width: 425px;
+	color: $color_2;
+	font-family: $font-family_1;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 146.187%;
+	margin-left: 70px;
+}
+input {
+	width: 578px;
+	height: 61px;
+	flex-shrink: 0;
+	border: 1px solid #000;
+	background: rgba(196, 196, 196, 0.00);
+	margin-left: 70px;
+	margin-top: 38px;
+}
+.checkbox {
+	width: 17px;
+	height: 17px;
+	background: var(--Gray-1, #333);
+}
+.checkbox-p {
+	color: $color_3;
+	font-family: $font-family_1;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 146.187%;
+	text-decoration-line: underline;
+	margin-left: 90px;
+	margin-top: -22px;
+	margin-bottom: 30px;
+}
+.btn-dark2 {
+	--bs-btn-color: #fff;
+	--bs-btn-bg: #212529;
+	--bs-btn-border-color: #212529;
+	--bs-btn-hover-color: #fff;
+	--bs-btn-hover-bg: #424649;
+	--bs-btn-hover-border-color: #373b3e;
+	--bs-btn-focus-shadow-rgb: 66,70,73;
+	--bs-btn-active-color: #fff;
+	--bs-btn-active-bg: #4d5154;
+	--bs-btn-active-border-color: #373b3e;
+	--bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+	--bs-btn-disabled-color: #fff;
+	--bs-btn-disabled-bg: #212529;
+	--bs-btn-disabled-border-color: #212529;
+	margin-left: 70px;
+}
